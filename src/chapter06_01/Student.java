@@ -21,10 +21,5 @@ public class Student { // 학생 클래스 선언
 		System.out.println(hakbun);
 	}
 	
-	public void outputscores() {
-		int sum = 0;
-		for(int num : scores) {
-			sum = num +1;
-		}
-	}
+	
 }
