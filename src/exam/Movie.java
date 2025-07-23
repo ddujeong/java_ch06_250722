@@ -7,12 +7,12 @@ public class Movie {
 		int runtime;
 		
 		public boolean isLongMovie(){
-			if (runtime>=120) {
-				return true;
-			}else {
-				return false;
-			}		
-
+//			if (runtime>=120) {
+//				return true;
+//			}else {
+//				return false;
+//			}		
+			return runtime >= 120;
 		}
 	
 }

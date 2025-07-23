@@ -20,6 +20,9 @@ public class Student { // 학생 클래스 선언
 	public void outputHakbun() {
 		System.out.println(hakbun);
 	}
-	
+	// int = 0
+	// double = 0.0
+	// boolean = false
+	// String = null
 	
 }

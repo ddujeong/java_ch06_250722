@@ -13,6 +13,7 @@ public class Product {
 	
 	public int getTotalPrice() {
 		return price * quantity;
+
 	}
 	
 }

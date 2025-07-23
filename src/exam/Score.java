@@ -6,29 +6,22 @@ public class Score {
 	int eng;
 	int math;
 	
-//	
-//	public Score(int kor, int eng, int math) {
-//		this.kor = kor;
-//		this.eng = eng;
-//		this.math = math;
-//	}
-//	
 	
-	
-	public int sum() {
-		return (kor + eng + math);
-//		System.out.println("총 점 : "+ sum);
-	}
-	
-	public double avg() {
-		return (kor + eng + math)/3;
+	public void printScore() { 
+	int total = kor + eng + math;
+	double avg = total /3.0;
+		System.out.println("총 점: "+ total);
+		System.out.println("평군: "+ avg);
 		
-	}
+		if (avg >= 90) {
+			System.out.println("우수");
+		} else if(avg < 60) {
+			System.out.println("재시험");
+		} else {
+			System.out.println("보통");
+		}
 	
-//	public String grade(int avg) {
-//		if (avg >= 90) {
-//			
-//		}
+	}
 		
 	}
 	
